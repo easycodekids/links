@@ -183,8 +183,9 @@ body {
 	width: 100%;
 	padding: 2.4rem;
 	background-color: var(--color-bg-block);
-	border-radius: 3rem;
-	border: 1px solid #ddd;
+	border-radius: 5rem;
+	border: 2px solid transparent;
+	background: linear-gradient(#eee, #eee 0) padding-box, linear-gradient(45deg, #0D67FF, #002F7E) border-box;
 	z-index: 10;
 }
 
@@ -365,4 +366,5 @@ body {
 		var(--color-bg-grad-first),
 		var(--color-bg-grad-second)
 	);
+
 }
